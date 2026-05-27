@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PolyBio Spring 2026 Symposium — Talk Summaries</title>
+<meta name="description" content="Plain-language and technical summaries of the 27 research talks presented at the PolyBio Spring 2026 Symposium.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --navy: #0A1F3D;
+    --navy-2: #152F5C;
+    --ink: #1A1F2C;
+    --paper: #FFFFFF;
+    --paper-2: #FAFBFD;
+    --paper-3: #F4F6FA;
+    --line: #D8DCE3;
+    --line-soft: #ECEEF2;
+    --muted: #5B6270;
+    --muted-2: #8B919C;
+    --accent: #2E7CFF;
+    --accent-pale: #E6EEFE;
+    --rule: #E5E8EE;
+    --callout-bg: #FBF7EE;
+    --callout-border: #E8DCBC;
+    --callout-ink: #6B5A2A;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--paper-2);
+    color: var(--ink);
+    line-height: 1.6;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .serif {
+    font-family: "Source Serif 4", "Source Serif Pro", Georgia, "Times New Roman", serif;
+    font-feature-settings: "kern", "liga";
+  }
+
+  /* ---------- Layout ---------- */
+
+  .page {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 56px 32px 80px;
+  }
+
+  @media (max-width: 720px) {
+    .page { padding: 32px 20px 56px; }
+    body { font-size: 15.5px; }
+  }
+
+  /* ---------- Masthead ---------- */
+
+  .masthead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 40px;
+  }
+  .masthead img { height: 26px; width: auto; }
+  .masthead .eyebrow {
+    font-size: 11.5px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 600;
+  }
+
+  /* ---------- Hero ---------- */
+
+  .hero { margin-bottom: 36px; }
+  .hero h1 {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-weight: 600;
+    font-size: clamp(34px, 5vw, 48px);
+    line-height: 1.1;
+    letter-spacing: -.012em;
+    color: var(--navy);
+    margin-bottom: 14px;
+  }
+  .hero .subtitle {
+    font-size: 17px;
+    color: var(--muted);
+    max-width: 640px;
+    line-height: 1.55;
+  }
+  @media (max-width: 720px) {
+    .hero .subtitle { font-size: 15.5px; }
+  }
+
+  /* ---------- Disclaimer ---------- */
+
+  .disclaimer {
+    background: var(--callout-bg);
+    border: 1px solid var(--callout-border);
+    border-left-width: 3px;
+    border-radius: 4px;
+    padding: 14px 18px;
+    font-size: 14px;
+    color: var(--callout-ink);
+    font-style: italic;
+    line-height: 1.55;
+    margin-bottom: 36px;
+  }
+
+  /* ---------- Controls ---------- */
+
+  .controls {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 28px;
+  }
+  .controls-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .search {
+    flex: 1 1 280px;
+    min-width: 220px;
+    position: relative;
+  }
+  .search input {
+    width: 100%;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 10px 14px 10px 38px;
+    font-family: inherit;
+    font-size: 14.5px;
+    color: var(--ink);
+    background: var(--paper);
+    transition: border-color .15s, box-shadow .15s;
+  }
+  .search input::placeholder { color: var(--muted-2); }
+  .search input:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-pale);
+  }
+  .search svg {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    stroke: var(--muted-2);
+    pointer-events: none;
+  }
+
+  .expand-all {
+    border: 1px solid var(--line);
+    background: var(--paper);
+    color: var(--navy);
+    border-radius: 8px;
+    padding: 9px 14px;
+    font-family: inherit;
+    font-size: 13.5px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color .15s, border-color .15s;
+    white-space: nowrap;
+  }
+  .expand-all:hover { background: var(--paper-3); border-color: var(--muted-2); }
+
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .chip {
+    border: 1px solid var(--line);
+    background: var(--paper);
+    color: var(--ink);
+    border-radius: 999px;
+    padding: 6px 13px;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color .15s, border-color .15s, color .15s;
+    line-height: 1.3;
+  }
+  .chip:hover { background: var(--paper-3); border-color: var(--muted-2); }
+  .chip[aria-pressed="true"] {
+    background: var(--navy);
+    border-color: var(--navy);
+    color: var(--paper);
+  }
+  .chip .count {
+    color: var(--muted-2);
+    font-size: 11.5px;
+    font-weight: 500;
+    margin-left: 4px;
+  }
+  .chip[aria-pressed="true"] .count { color: rgba(255,255,255,.65); }
+
+  .results-count {
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+
+  /* ---------- Talk cards ---------- */
+
+  .talks {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .talk {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: border-color .2s, box-shadow .2s;
+    scroll-margin-top: 24px;
+  }
+  .talk:hover {
+    border-color: var(--muted-2);
+  }
+  .talk.is-open {
+    border-color: var(--navy);
+    box-shadow: 0 1px 2px rgba(10,31,61,.04), 0 6px 18px rgba(10,31,61,.06);
+  }
+
+  .talk-header {
+    display: block;
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    font-family: inherit;
+    color: inherit;
+    cursor: pointer;
+    padding: 22px 24px;
+    position: relative;
+  }
+  @media (max-width: 720px) {
+    .talk-header { padding: 18px 18px 18px 18px; }
+  }
+  .talk-header:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: -2px;
+  }
+
+  .talk-theme {
+    display: inline-block;
+    font-size: 11px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--muted);
+    margin-bottom: 10px;
+  }
+
+  .talk-title {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.3;
+    color: var(--navy);
+    letter-spacing: -.005em;
+    margin-bottom: 8px;
+    padding-right: 36px;
+  }
+  @media (max-width: 720px) {
+    .talk-title { font-size: 18px; padding-right: 32px; }
+  }
+
+  .talk-byline {
+    font-size: 13.5px;
+    color: var(--muted);
+    margin-bottom: 12px;
+    font-weight: 500;
+  }
+  .talk-byline .speaker { color: var(--ink); font-weight: 600; }
+
+  .talk-lay {
+    font-size: 15.5px;
+    color: var(--ink);
+    line-height: 1.55;
+    padding-right: 36px;
+  }
+  @media (max-width: 720px) {
+    .talk-lay { font-size: 15px; padding-right: 32px; }
+  }
+
+  .toggle-icon {
+    position: absolute;
+    top: 22px;
+    right: 22px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--paper-3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color .15s, transform .25s;
+    flex-shrink: 0;
+  }
+  .talk-header:hover .toggle-icon { background: var(--line-soft); }
+  .toggle-icon svg { width: 12px; height: 12px; stroke: var(--navy); }
+  .talk.is-open .toggle-icon { transform: rotate(45deg); background: var(--navy); }
+  .talk.is-open .toggle-icon svg { stroke: var(--paper); }
+
+  /* ---------- Expanded body ---------- */
+
+  .talk-body {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows .35s ease;
+  }
+  .talk.is-open .talk-body { grid-template-rows: 1fr; }
+  .talk-body-inner {
+    overflow: hidden;
+    min-height: 0;
+  }
+  .talk-body-content {
+    padding: 4px 24px 26px;
+    border-top: 1px solid var(--line-soft);
+    margin-top: 0;
+  }
+  @media (max-width: 720px) {
+    .talk-body-content { padding: 4px 18px 22px; }
+  }
+
+  .technical-label {
+    display: inline-block;
+    font-size: 11px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--muted);
+    margin-top: 22px;
+    margin-bottom: 12px;
+  }
+  .technical-summary {
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--ink);
+  }
+
+  .related {
+    margin-top: 22px;
+    padding-top: 18px;
+    border-top: 1px dashed var(--line);
+  }
+  .related-label {
+    font-size: 11px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--muted);
+    margin-bottom: 10px;
+  }
+  .related-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .related-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid var(--line);
+    background: var(--paper-2);
+    color: var(--navy);
+    border-radius: 999px;
+    padding: 4px 11px;
+    font-size: 12.5px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background-color .15s, border-color .15s, color .15s;
+  }
+  .related-pill:hover {
+    background: var(--accent-pale);
+    border-color: var(--accent);
+    color: var(--navy);
+  }
+  .related-pill svg {
+    width: 11px;
+    height: 11px;
+    stroke: currentColor;
+  }
+
+  .empty {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--muted);
+    font-size: 14.5px;
+  }
+
+  /* ---------- Footer ---------- */
+
+  footer {
+    margin-top: 64px;
+    padding-top: 28px;
+    border-top: 1px solid var(--line);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: var(--muted);
+  }
+  footer a {
+    color: var(--navy);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  footer a:hover { text-decoration: underline; }
+
+  /* ---------- Reduced motion ---------- */
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: .01ms !important;
+      transition-duration: .01ms !important;
+    }
+    html { scroll-behavior: auto; }
+  }
+</style>
+</head>
+<body>
+
+<main class="page">
+
+  <header class="masthead">
+    <img src="polybio-logo.png" alt="PolyBio Research Foundation">
+    <div class="eyebrow">Symposium · May 2026</div>
+  </header>
+
+  <section class="hero">
+    <h1>PolyBio Spring 2026 Symposium</h1>
+    <p class="subtitle">Twenty-seven research presentations on long COVID, ME/CFS, and related infection-associated chronic illness. Each card opens to a full technical summary.</p>
+  </section>
+
+  <aside class="disclaimer" id="disclaimer" role="note"></aside>
+
+  <section class="controls" aria-label="Filter talks">
+    <div class="controls-row">
+      <label class="search" aria-label="Search talks">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="7"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="search" id="search" placeholder="Search by speaker, institution, or keyword">
+      </label>
+      <button class="expand-all" id="expand-all" type="button">Expand all</button>
+    </div>
+    <div class="chips" id="theme-chips" role="group" aria-label="Filter by theme"></div>
+  </section>
+
+  <div class="results-count" id="results-count" aria-live="polite"></div>
+
+  <section class="talks" id="talks" aria-label="Talk summaries"></section>
+
+  <footer>
+    <div>PolyBio Research Foundation · <a href="https://polybio.org" target="_blank" rel="noopener">polybio.org</a></div>
+    <div>Spring 2026 Symposium</div>
+  </footer>
+
+</main>
+
+<script src="talks.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  var DATA = window.SYMPOSIUM_DATA;
+  var talks = DATA.talks;
+  var talksById = {};
+  talks.forEach(function (t) { talksById[t.id] = t; });
+
+  // Canonical theme order (from the brief)
+  var CANONICAL_THEMES = [
+    "Gut viral persistence",
+    "Microclots & vascular",
+    "Neurology",
+    "Immune dysfunction",
+    "Diagnostics",
+    "Therapeutics",
+    "Cardiovascular",
+    "Programs & infrastructure",
+    "Other diseases & methods"
+  ];
+
+  var state = {
+    activeTheme: "All",
+    query: "",
+    openIds: new Set()
+  };
+
+  // ---------- Helpers ----------
+
+  function escapeHtml(s) {
+    return String(s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function speakerLastName(speaker) {
+    // "Mikaela Lo (presented by Amy Proal)" -> "Lo"
+    var base = speaker.replace(/\s*\(.*?\)\s*/g, "").trim();
+    var parts = base.split(/\s+/);
+    return parts[parts.length - 1];
+  }
+
+  // ---------- Disclaimer ----------
+
+  document.getElementById("disclaimer").textContent = DATA.disclaimer;
+
+  // ---------- Theme chips ----------
+
+  function renderChips() {
+    var counts = { All: talks.length };
+    talks.forEach(function (t) {
+      counts[t.theme] = (counts[t.theme] || 0) + 1;
+    });
+    var themes = ["All"].concat(CANONICAL_THEMES.filter(function (t) { return counts[t]; }));
+    var html = themes.map(function (theme) {
+      var pressed = state.activeTheme === theme;
+      return '<button class="chip" type="button" role="button" aria-pressed="' + pressed + '" data-theme="' + escapeHtml(theme) + '">' +
+        escapeHtml(theme) +
+        ' <span class="count">' + counts[theme] + '</span>' +
+        '</button>';
+    }).join("");
+    var container = document.getElementById("theme-chips");
+    container.innerHTML = html;
+    container.querySelectorAll(".chip").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        state.activeTheme = btn.getAttribute("data-theme");
+        renderChips();
+        renderTalks();
+      });
+    });
+  }
+
+  // ---------- Talks ----------
+
+  function matchesFilter(t) {
+    if (state.activeTheme !== "All" && t.theme !== state.activeTheme) return false;
+    if (state.query) {
+      var q = state.query.toLowerCase();
+      var hay = (t.speaker + " " + t.institution + " " + t.title + " " + t.laySummary + " " + t.technicalSummary + " " + t.theme).toLowerCase();
+      if (hay.indexOf(q) === -1) return false;
+    }
+    return true;
+  }
+
+  function renderTalks() {
+    var visible = talks.filter(matchesFilter);
+    var container = document.getElementById("talks");
+    var count = document.getElementById("results-count");
+
+    if (visible.length === 0) {
+      container.innerHTML = '<div class="empty">No talks match your filter. Try clearing the search or selecting a different theme.</div>';
+      count.textContent = "";
+      return;
+    }
+
+    count.textContent = visible.length === talks.length
+      ? "Showing all " + talks.length + " talks"
+      : "Showing " + visible.length + " of " + talks.length + " talks";
+
+    container.innerHTML = visible.map(function (t) {
+      var isOpen = state.openIds.has(t.id);
+      var related = "";
+      if (t.relatedTalks && t.relatedTalks.length) {
+        related =
+          '<div class="related">' +
+            '<div class="related-label">Converges with</div>' +
+            '<div class="related-list">' +
+              t.relatedTalks.map(function (rid) {
+                var r = talksById[rid];
+                if (!r) return "";
+                return '<button class="related-pill" type="button" data-jump="' + escapeHtml(rid) + '">' +
+                  '<svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>' +
+                  escapeHtml(speakerLastName(r.speaker)) + ' · ' + escapeHtml(r.theme) +
+                  '</button>';
+              }).join("") +
+            '</div>' +
+          '</div>';
+      }
+      var video = t.videoUrl
+        ? '<div style="margin-top:18px"><a href="' + escapeHtml(t.videoUrl) + '" target="_blank" rel="noopener" style="font-size:13.5px;font-weight:500;color:var(--navy)">Watch talk →</a></div>'
+        : "";
+      return '' +
+        '<article class="talk' + (isOpen ? " is-open" : "") + '" id="' + escapeHtml(t.id) + '">' +
+          '<button class="talk-header" type="button" aria-expanded="' + isOpen + '" aria-controls="body-' + escapeHtml(t.id) + '">' +
+            '<span class="talk-theme">' + escapeHtml(t.theme) + '</span>' +
+            '<h2 class="talk-title">' + escapeHtml(t.title) + '</h2>' +
+            '<div class="talk-byline"><span class="speaker">' + escapeHtml(t.speaker) + '</span> · ' + escapeHtml(t.institution) + '</div>' +
+            '<p class="talk-lay">' + escapeHtml(t.laySummary) + '</p>' +
+            '<span class="toggle-icon" aria-hidden="true">' +
+              '<svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>' +
+            '</span>' +
+          '</button>' +
+          '<div class="talk-body" id="body-' + escapeHtml(t.id) + '">' +
+            '<div class="talk-body-inner">' +
+              '<div class="talk-body-content">' +
+                '<div class="technical-label">Technical summary</div>' +
+                '<p class="technical-summary">' + escapeHtml(t.technicalSummary) + '</p>' +
+                related +
+                video +
+              '</div>' +
+            '</div>' +
+          '</div>' +
+        '</article>';
+    }).join("");
+
+    // Wire up listeners
+    container.querySelectorAll(".talk-header").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var article = btn.closest(".talk");
+        var id = article.id;
+        toggle(id);
+      });
+    });
+    container.querySelectorAll(".related-pill").forEach(function (pill) {
+      pill.addEventListener("click", function (e) {
+        e.stopPropagation();
+        var id = pill.getAttribute("data-jump");
+        openAndScrollTo(id);
+      });
+    });
+
+    updateExpandAllLabel();
+  }
+
+  function toggle(id) {
+    if (state.openIds.has(id)) {
+      state.openIds.delete(id);
+    } else {
+      state.openIds.add(id);
+    }
+    updateUrlHash();
+    syncOpenState();
+  }
+
+  function openAndScrollTo(id) {
+    // If filtered out, clear filters so target is visible
+    var t = talksById[id];
+    if (!t) return;
+    if (!matchesFilter(t)) {
+      state.activeTheme = "All";
+      state.query = "";
+      document.getElementById("search").value = "";
+      renderChips();
+    }
+    state.openIds.add(id);
+    renderTalks();
+    updateUrlHash();
+    requestAnimationFrame(function () {
+      var el = document.getElementById(id);
+      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
+
+  function syncOpenState() {
+    document.querySelectorAll(".talk").forEach(function (article) {
+      var id = article.id;
+      var open = state.openIds.has(id);
+      article.classList.toggle("is-open", open);
+      var btn = article.querySelector(".talk-header");
+      if (btn) btn.setAttribute("aria-expanded", open);
+    });
+    updateExpandAllLabel();
+  }
+
+  function updateUrlHash() {
+    // Single-talk hash if exactly one is open, else clear
+    if (state.openIds.size === 1) {
+      var id = state.openIds.values().next().value;
+      history.replaceState(null, "", "#" + id);
+    } else {
+      history.replaceState(null, "", window.location.pathname + window.location.search);
+    }
+  }
+
+  // ---------- Expand all / Collapse all ----------
+
+  function updateExpandAllLabel() {
+    var visible = talks.filter(matchesFilter).map(function (t) { return t.id; });
+    var allOpen = visible.length > 0 && visible.every(function (id) { return state.openIds.has(id); });
+    var btn = document.getElementById("expand-all");
+    btn.textContent = allOpen ? "Collapse all" : "Expand all";
+  }
+
+  document.getElementById("expand-all").addEventListener("click", function () {
+    var visible = talks.filter(matchesFilter).map(function (t) { return t.id; });
+    var allOpen = visible.length > 0 && visible.every(function (id) { return state.openIds.has(id); });
+    if (allOpen) {
+      visible.forEach(function (id) { state.openIds.delete(id); });
+    } else {
+      visible.forEach(function (id) { state.openIds.add(id); });
+    }
+    updateUrlHash();
+    syncOpenState();
+  });
+
+  // ---------- Search ----------
+
+  var searchEl = document.getElementById("search");
+  var searchTimer = null;
+  searchEl.addEventListener("input", function () {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(function () {
+      state.query = searchEl.value.trim();
+      renderTalks();
+    }, 80);
+  });
+
+  // ---------- Deep-link on load ----------
+
+  function handleInitialHash() {
+    var hash = window.location.hash.replace(/^#/, "");
+    if (hash && talksById[hash]) {
+      state.openIds.add(hash);
+      renderTalks();
+      // Scroll after layout settles
+      setTimeout(function () {
+        var el = document.getElementById(hash);
+        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 80);
+    } else {
+      renderTalks();
+    }
+  }
+
+  // ---------- Init ----------
+
+  renderChips();
+  handleInitialHash();
+
+  // Reflect external hash changes (e.g. user pastes a hashed URL into the same tab)
+  window.addEventListener("hashchange", function () {
+    var hash = window.location.hash.replace(/^#/, "");
+    if (hash && talksById[hash]) {
+      openAndScrollTo(hash);
+    }
+  });
+
+})();
+</script>
+</body>
+</html>
