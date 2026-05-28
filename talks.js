@@ -265,6 +265,16 @@ window.SYMPOSIUM_DATA = {
       relatedTalks: ["henrich-tissue", "yonker-pediatric", "buggert-gut", "huot-nhp"]
     },
     {
+      id: "reategui-bar",
+      speaker: "Eduardo Reategui",
+      institution: "Ohio State University",
+      title: "Integrated single-particle detection of viral antigens and nucleic acids in Long COVID",
+      theme: "Diagnostics",
+      laySummary: "A new biochip detects individual virus particles by reading both their surface proteins and their internal RNA at once, and is being applied to Long COVID samples to search for lingering viral material carried in extracellular vesicles.",
+      technicalSummary: "Reategui's engineering lab develops micro- and nanotechnologies to characterize circulating biomarkers and individual viral particles, exploiting the physical similarities between viruses and extracellular vesicles (EVs) — comparable size, surface markers, and RNA cargo. The lab's BAR assay (biochip for antigen and RNA) immobilizes intact, unlysed virus particles or EVs on a chip surface and combines an antigen readout (surface-antibody capture of, e.g., spike protein) with designed probes that enter the particle to detect messenger-RNA regions, producing a fluorescence signal that can co-localize surface protein with internal RNA to confirm an intact virion — and can equally interrogate viral RNA carried inside a patient's host EVs. Developed to FDA requirements under a pandemic-era EUA submission, the assay was benchmarked against PCR and ELISA with higher sensitivity for both protein and RNA, validated across fresh and frozen samples, multiple viral mutations, and cross-reactivity panels (other viruses, bacteria, fungi), and runs fully automated at roughly 250 samples per batch; combining antigen and RNA readouts in the acute cohort approached ~100% sensitivity, with strong agreement with PCR in asymptomatic cases. In a Long COVID pilot of seven patients sampled at multiple time points after the acute phase (with Jason Goldman of Swedish Medical Center, Seattle), no free virus was detected in circulation, but viral-RNA signatures were identified within patients' extracellular vesicles — illustrated by one Long COVID patient across three time points versus a healthy donor — and the co-localization capability is being directed toward identifying the tissue of origin in collaboration with PolyBio. The team is now processing roughly 150 PolyBio plasma samples (some paired) to quantify viral persistence and compare viral signatures across biofluids; the single-particle antigen-plus-RNA approach complements Shannon Stott's microfluidic virion detection and the tissue-based persistence findings of Timothy Henrich, Marcus Buggert, and Esen Sefik.",
+      relatedTalks: ["stott-microfluidic", "henrich-tissue", "buggert-gut", "sefik-myeloid"]
+    },
+    {
       id: "murakami-csf",
       speaker: "Mario Murakami",
       institution: "Harvard Medical School",
