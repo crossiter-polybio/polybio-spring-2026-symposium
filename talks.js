@@ -81,7 +81,7 @@ window.SYMPOSIUM_DATA = {
       title: "Neutrophil-driven endothelial injury and microclot formation in pediatric Long COVID",
       theme: "Microclots & vascular",
       laySummary: "In children and young adults with Long COVID, neutrophils (a type of white blood cell) are over-activated by spike-and-antibody complexes circulating in the blood, damaging the blood-vessel lining and forming microclots.",
-      technicalSummary: "Yonker compared 23 healthy children with 61 children and young adults with Long COVID, many presenting with endovascular symptoms such as orthostatic dizziness and palpitations. Neutrophils exposed to Long COVID plasma underwent NETosis at substantially higher rates than those exposed to control plasma, with the highest rates seen in patients with detectable circulating spike protein; cell-free DNA tracked as an indirect marker. Reconstituted immune complexes (vaccinated-donor antibodies combined with recombinant spike) drove dose-dependent neutrophil activation, while antibody or spike alone produced little response — implicating the immune complex itself as the proximal trigger. Patients showed increased microclot burden and altered endothelial cytokine profiles, with associations among neutrophil markers, endothelial injury, amyloid signal, and cell-free DNA (not yet established as causal). The proposed sequence — leaky tissue reservoir → circulating spike → immune complexes → neutrophil activation → endothelial damage — converges with the gut-barrier rationale behind Peter Moskovitz's larazotide trial and with Esen Sefik's evidence of productive neutrophil infection.",
+      technicalSummary: "Yonker compared 23 healthy children with 61 children and young adults with Long COVID, many presenting with endovascular symptoms such as orthostatic dizziness and palpitations. Neutrophils exposed to Long COVID plasma underwent NETosis at substantially higher rates than those exposed to control plasma, with the highest rates seen in patients with detectable circulating spike protein; cell-free DNA tracked as an indirect marker. Reconstituted immune complexes (vaccinated-donor antibodies combined with recombinant spike) drove dose-dependent neutrophil activation, while antibody or spike alone produced little response — implicating the immune complex itself as the proximal trigger. Patients showed increased microclot burden and altered endothelial cytokine profiles, with associations among neutrophil markers, endothelial injury, amyloid signal, and cell-free DNA (not yet established as causal). The proposed sequence — leaky tissue reservoir → circulating spike → immune complexes → neutrophil activation → endothelial damage — converges with the gut-barrier rationale behind Peter Moschovis's larazotide trial and with Esen Sefik's evidence of productive neutrophil infection.",
       relatedTalks: ["moskovitz-larazotide", "sefik-myeloid"]
     },
     {
@@ -107,7 +107,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "lo-lymphnodes",
       speaker: "Michela Locci (presented by Amy Proal)",
-      institution: "PolyBio Research Foundation",
+      institution: "University of Pennsylvania",
       title: "Adaptive immune responses in Long COVID lymphoid tissue",
       theme: "Immune dysfunction",
       laySummary: "In Long COVID, the B cells inside lymph nodes appear to be making faulty antibody responses against SARS-CoV-2 — a defect invisible in routine blood tests but potentially explaining why the virus is not fully cleared.",
@@ -116,12 +116,12 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "moskovitz-larazotide",
-      speaker: "Peter Moskovitz",
+      speaker: "Peter Moschovis",
       institution: "Massachusetts General Hospital / Harvard Medical School",
       title: "Larazotide for gut barrier dysfunction in Long COVID",
       theme: "Therapeutics",
       laySummary: "An interim look at a 107-patient trial of larazotide — a drug that seals the gut lining — suggests improvements in sleep, fatigue, GI symptoms, and daily function for Long COVID patients, with full unblinded results expected this summer.",
-      technicalSummary: "Moskovitz presented an interim update on a Phase 2a randomized, double-blind trial of larazotide — an enterically coated synthetic peptide that prevents intestinal tight-junction opening — in Long COVID. The rationale ties elevated serum zonulin to Long COVID risk via gut barrier dysfunction; the same intervention previously reduced GI symptom duration and time-to-spike clearance in Lael Yonker's MIS-C trial. The current study enrolled 107 participants aged 7–50 (mean ~30, roughly 75% adults, mean of two prior infections, approximately two-thirds women) with 2:1 randomization across three weeks of treatment and five weeks of follow-up; the final in-person visit was May 8 and data collection is wrapping up. A blinded interim analysis (n=40, reviewed by the DSMB) showed improvements in sleep, fatigue, daily-life impact, GI symptoms, and cardiovascular symptoms, with unblinded results expected later this summer. The trial directly tests the gut-barrier-leak model also invoked by Yonker's pediatric work.",
+      technicalSummary: "Moschovis presented an interim update on a Phase 2a randomized, double-blind trial of larazotide — an enterically coated synthetic peptide that prevents intestinal tight-junction opening — in Long COVID. The rationale ties elevated serum zonulin to Long COVID risk via gut barrier dysfunction; the same intervention previously reduced GI symptom duration and time-to-spike clearance in Lael Yonker's MIS-C trial. The current study enrolled 107 participants aged 7–50 (mean ~30, roughly 75% adults, mean of two prior infections, approximately two-thirds women) with 2:1 randomization across three weeks of treatment and five weeks of follow-up; the final in-person visit was May 8 and data collection is wrapping up. A blinded interim analysis (n=40, reviewed by the DSMB) showed improvements in sleep, fatigue, daily-life impact, GI symptoms, and cardiovascular symptoms, with unblinded results expected later this summer. The trial directly tests the gut-barrier-leak model also invoked by Yonker's pediatric work.",
       relatedTalks: ["yonker-pediatric"]
     },
     {
