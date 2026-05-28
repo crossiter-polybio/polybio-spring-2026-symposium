@@ -47,7 +47,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "brodin-genetics",
       speaker: "Petter Brodin",
-      institution: "Karolinska Institute / Imperial College London",
+      institution: "Karolinska Institute",
       title: "Whole genome sequencing and immune profiling in severe Long COVID",
       theme: "Immune dysfunction",
       laySummary: "Genetic susceptibility to severe Long COVID appears to sit in genes that act on body tissues rather than immune cells, and autoantibodies against interferon — a known driver of severe acute COVID — do not appear to be the cause.",
@@ -57,7 +57,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "salmon-maraviroc",
       speaker: "Dominique Salmon",
-      institution: "Université Paris Cité",
+      institution: "INSERM",
       title: "Maraviroc plus pravastatin in Long COVID patients with severe GI symptoms",
       theme: "Therapeutics",
       laySummary: "A small pilot of two repurposed drugs (maraviroc plus pravastatin) reduced severe GI symptoms in 13 of 19 Long COVID patients and shrank their microclots; symptoms returned when treatment was paused.",
@@ -77,7 +77,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "yonker-pediatric",
       speaker: "Lael Yonker",
-      institution: "Massachusetts General Hospital / Harvard Medical School",
+      institution: "University of Texas Southwestern",
       title: "Neutrophil-driven endothelial injury and microclot formation in pediatric Long COVID",
       theme: "Microclots & vascular",
       laySummary: "In children and young adults with Long COVID, neutrophils (a type of white blood cell) are over-activated by spike-and-antibody complexes circulating in the blood, damaging the blood-vessel lining and forming microclots.",
@@ -87,7 +87,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "miller-retina",
       speaker: "Sean Miller",
-      institution: "Yale School of Medicine",
+      institution: "Yale University",
       title: "Retinal biomarkers and organoid models of infection-triggered neurodegeneration",
       theme: "Neurology",
       laySummary: "Long COVID patients show signs of neurodegeneration visible in the retina, and lab-grown “mini-retinas” exposed to SARS-CoV-2 spike protein develop the same protein clumps seen in Alzheimer's and Parkinson's disease.",
@@ -117,7 +117,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "moskovitz-larazotide",
       speaker: "Peter Moschovis",
-      institution: "Massachusetts General Hospital / Harvard Medical School",
+      institution: "Harvard Medical School",
       title: "Larazotide for gut barrier dysfunction in Long COVID",
       theme: "Therapeutics",
       laySummary: "An interim look at a 107-patient trial of larazotide — a drug that seals the gut lining — suggests improvements in sleep, fatigue, GI symptoms, and daily function for Long COVID patients, with full unblinded results expected this summer.",
@@ -127,7 +127,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "vanelzakker-brainstem",
       speaker: "Michael VanElzakker",
-      institution: "Massachusetts General Hospital / Harvard Medical School",
+      institution: "Harvard Medical School",
       title: "Brainstem neuroinflammation and brain-derived p-tau217 in Long COVID and ME/CFS",
       theme: "Neurology",
       laySummary: "Brain scans show Long COVID patients have inflammation in the brainstem region where the vagus nerve enters, and their blood shows an Alzheimer's-risk marker at roughly four times the rate of healthy controls.",
@@ -137,7 +137,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "putrino-mmt",
       speaker: "David Putrino",
-      institution: "Mount Sinai Health System",
+      institution: "The Icahn School of Medicine at Mount Sinai",
       title: "Microtesla magnetic therapy for cognitive impairment in Long COVID",
       theme: "Therapeutics",
       laySummary: "A gentle home-use magnetic-field device improved cognitive function in Long COVID patients in a small placebo-controlled trial, with no side effects; a larger trial for FDA approval is launching.",
@@ -147,7 +147,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "painter-cd8",
       speaker: "Mark Painter",
-      institution: "University of Pennsylvania (Wherry Lab)",
+      institution: "J. Craig Venter Institute",
       title: "Virus-specific CD8 T cells as biosensors of antigen persistence",
       theme: "Immune dysfunction",
       laySummary: "In about 40% of Long COVID patients, the virus-fighting CD8 T cells specific to SARS-CoV-2 look “exhausted” — they don't divide or produce immune signals normally — while their flu-fighting cells are unaffected.",
@@ -177,7 +177,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "peluso-viper",
       speaker: "Michael Peluso",
-      institution: "UCSF",
+      institution: "University of California, San Francisco",
       title: "VIPER: Validating noninvasive biomarkers of SARS-CoV-2 persistence",
       theme: "Programs & infrastructure",
       laySummary: "An $8M UCSF program is enrolling 100 Long COVID patients and 50 controls for gut biopsies and blood samples to figure out which noninvasive tests reliably detect persistent virus in the body.",
@@ -187,7 +187,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "peluso-chime",
       speaker: "Michael Peluso",
-      institution: "UCSF",
+      institution: "University of California, San Francisco",
       title: "CHIME: Applying LIINC infrastructure to pre-COVID ME/CFS",
       theme: "Programs & infrastructure",
       laySummary: "The same UCSF infrastructure used to study Long COVID is now being applied to people who developed ME/CFS before COVID, to test whether the same underlying biology drives their illness.",
@@ -197,7 +197,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "henrich-tissue",
       speaker: "Timothy Henrich",
-      institution: "UCSF",
+      institution: "University of California, San Francisco",
       title: "Characterizing SARS-CoV-2 tissue reservoirs in Long COVID",
       theme: "Gut viral persistence",
       laySummary: "SARS-CoV-2 is still detectable in the gut lining of roughly 20–25% of Long COVID patients — up to 4.5 years after infection — with the immune system actively sensing the virus but failing to clear it.",
@@ -217,7 +217,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "roan-cytolytic",
       speaker: "Nadia Roan",
-      institution: "Gladstone Institutes / UCSF",
+      institution: "Gladstone Institutes",
       title: "Cytolytic virus-specific CD8 T cell responses in Long COVID",
       theme: "Immune dysfunction",
       laySummary: "A type of cell-killing immune cell stays abnormally active in Long COVID — especially in women — which may help explain why Long COVID disproportionately affects women.",
@@ -227,7 +227,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "giannarelli-plaque",
       speaker: "Chiara Giannerelli",
-      institution: "NYU Grossman School of Medicine",
+      institution: "New York University",
       title: "SARS-CoV-2 persistence in vascular tissue and cardiovascular risk",
       theme: "Cardiovascular",
       laySummary: "SARS-CoV-2 persists in atherosclerotic plaques in some patients' arteries and reprograms the immune cells inside them, providing a direct mechanism for the elevated heart attack and stroke risk seen after COVID infection.",
@@ -237,7 +237,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "tseng-postscd",
       speaker: "Zian Tseng",
-      institution: "UCSF",
+      institution: "University of California, San Francisco",
       title: "Post-mortem mapping of SARS-CoV-2 persistence in sudden cardiac death (POST-SCD)",
       theme: "Cardiovascular",
       laySummary: "In cases of unexplained sudden cardiac death in San Francisco, roughly 4% are found to have SARS-CoV-2 in heart tissue at autopsy — sometimes in people with no prior COVID diagnosis at all.",
@@ -247,7 +247,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "vanbrocklin-pet",
       speaker: "Henry VanBrocklin",
-      institution: "UCSF",
+      institution: "University of California, San Francisco",
       title: "Whole-body PET imaging of T cell activation in Long COVID",
       theme: "Diagnostics",
       laySummary: "Whole-body PET scans show Long COVID patients have activated immune cells in many tissues simultaneously, and the pattern shifts measurably after anti-spike antibody treatment.",
@@ -257,7 +257,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "sefik-myeloid",
       speaker: "Esen Sefik",
-      institution: "Yale School of Medicine",
+      institution: "Yale University",
       title: "Myeloid SARS-CoV-2 reservoirs in humanized mice",
       theme: "Gut viral persistence",
       laySummary: "In mice given human immune systems, both macrophages and neutrophils (two types of white blood cells) can be productively infected by SARS-CoV-2 and serve as long-term reservoirs — removing them clears the virus.",
@@ -267,7 +267,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "murakami-csf",
       speaker: "Mario Murakami",
-      institution: "Massachusetts General Hospital (Martinos Center)",
+      institution: "Harvard Medical School",
       title: "CSF flow disruption in craniocervical instability",
       theme: "Neurology",
       laySummary: "A pilot brain-imaging study found that patients with craniocervical instability have impaired cerebrospinal fluid flow, which could explain the brain fog and fatigue that overlap with ME/CFS.",
