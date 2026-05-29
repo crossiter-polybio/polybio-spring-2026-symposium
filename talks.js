@@ -123,8 +123,10 @@ window.SYMPOSIUM_DATA = {
     {
       id: "lo-lymphnodes",
       photo: "images/lo-lymphnodes.png",
+      photo2: "images/proal.jpg",
       videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=7111s",
-      speaker: "Michela Locci (presented by Amy Proal)",
+      speaker: "Michela Locci",
+      presenter: "Amy Proal",
       institution: "University of Pennsylvania",
       title: "Adaptive immune responses in Long COVID lymphoid tissue",
       theme: "Immune dysfunction",

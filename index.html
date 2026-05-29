@@ -616,7 +616,7 @@
     if (state.activeTheme !== "All" && t.theme !== state.activeTheme) return false;
     if (state.query) {
       var q = state.query.toLowerCase();
-      var hay = (t.speaker + " " + t.institution + " " + t.title + " " + t.laySummary + " " + t.technicalSummary + " " + t.theme).toLowerCase();
+      var hay = (t.speaker + " " + (t.presenter || "") + " " + t.institution + " " + t.title + " " + t.laySummary + " " + t.technicalSummary + " " + t.theme).toLowerCase();
       if (hay.indexOf(q) === -1) return false;
     }
     return true;
@@ -669,7 +669,12 @@
             '<h2 class="talk-title">' + escapeHtml(t.title) + '</h2>' +
             '<div class="talk-meta">' +
               (t.photo ? '<img class="talk-photo" src="' + escapeHtml(t.photo) + '" alt="" loading="lazy" width="46" height="46" onerror="this.style.display=&quot;none&quot;">' : '') +
-              '<div class="talk-byline"><span class="speaker">' + escapeHtml(t.speaker) + '</span> · ' + escapeHtml(t.institution) + '</div>' +
+              (t.photo2 ? '<img class="talk-photo" src="' + escapeHtml(t.photo2) + '" alt="" loading="lazy" width="46" height="46" onerror="this.style.display=&quot;none&quot;">' : '') +
+              '<div class="talk-byline">' +
+                (t.presenter
+                  ? '<span class="speaker">' + escapeHtml(t.presenter) + '</span> presents on ' + escapeHtml(t.speaker) + "'s work and related research"
+                  : '<span class="speaker">' + escapeHtml(t.speaker) + '</span> · ' + escapeHtml(t.institution)) +
+              '</div>' +
             '</div>' +
             '<p class="talk-lay">' + escapeHtml(t.laySummary) + '</p>' +
             '<span class="toggle-icon" aria-hidden="true">' +
