@@ -26,6 +26,7 @@ window.SYMPOSIUM_DATA = {
   talks: [
     {
       id: "pretorius-microclots",
+      photo: "images/pretorius-microclots.jpg",
       speaker: "Resia Pretorius",
       institution: "Stellenbosch University",
       title: "Fibrinoloid microclots, endothelial dysfunction, and proteomics across Long COVID, post-vaccination syndrome, and POTS",
@@ -36,6 +37,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "buggert-gut",
+      photo: "images/buggert-gut.png",
       speaker: "Marcus Buggert",
       institution: "Karolinska Institute",
       title: "SARS-CoV-2 gut and lymphoid pathology with longitudinal blood proteomics",
@@ -46,6 +48,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "brodin-genetics",
+      photo: "images/brodin-genetics.jpg",
       speaker: "Petter Brodin",
       institution: "Karolinska Institute",
       title: "Whole genome sequencing and immune profiling in severe Long COVID",
@@ -56,6 +59,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "salmon-maraviroc",
+      photo: "images/salmon-maraviroc.png",
       speaker: "Dominique Salmon",
       institution: "INSERM",
       title: "Maraviroc plus pravastatin in Long COVID patients with severe GI symptoms",
@@ -66,6 +70,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "huot-nhp",
+      photo: "images/huot-nhp.jpg",
       speaker: "Nicolas Huot",
       institution: "Institut Pasteur",
       title: "SARS-CoV-2 persistence in the intestine in a non-human primate model",
@@ -76,6 +81,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "yonker-pediatric",
+      photo: "images/yonker-pediatric.png",
       speaker: "Lael Yonker",
       institution: "University of Texas Southwestern",
       title: "Neutrophil-driven endothelial injury and microclot formation in pediatric Long COVID",
@@ -86,6 +92,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "miller-retina",
+      photo: "images/miller-retina.png",
       speaker: "Sean Miller",
       institution: "Yale University",
       title: "Retinal biomarkers and organoid models of infection-triggered neurodegeneration",
@@ -96,6 +103,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "luchini-borrelia",
+      photo: "images/luchini-borrelia.png",
       speaker: "Alessandra Luchini",
       institution: "George Mason University",
       title: "Urinary extracellular vesicle biomarkers for a Borrelia-associated Long COVID subgroup",
@@ -106,6 +114,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "lo-lymphnodes",
+      photo: "images/lo-lymphnodes.png",
       speaker: "Michela Locci (presented by Amy Proal)",
       institution: "University of Pennsylvania",
       title: "Adaptive immune responses in Long COVID lymphoid tissue",
@@ -116,6 +125,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "moskovitz-larazotide",
+      photo: "images/moskovitz-larazotide.png",
       speaker: "Peter Moschovis",
       institution: "Harvard Medical School",
       title: "Larazotide for gut barrier dysfunction in Long COVID",
@@ -126,6 +136,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "vanelzakker-brainstem",
+      photo: "images/vanelzakker-brainstem.png",
       speaker: "Michael VanElzakker",
       institution: "Harvard Medical School",
       title: "Brainstem neuroinflammation and brain-derived p-tau217 in Long COVID and ME/CFS",
@@ -136,6 +147,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "putrino-mmt",
+      photo: "images/putrino-mmt.png",
       speaker: "David Putrino",
       institution: "The Icahn School of Medicine at Mount Sinai",
       title: "Microtesla magnetic therapy for cognitive impairment in Long COVID",
@@ -146,6 +158,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "painter-cd8",
+      photo: "images/painter-cd8.png",
       speaker: "Mark Painter",
       institution: "J. Craig Venter Institute",
       title: "Virus-specific CD8 T cells as biosensors of antigen persistence",
@@ -156,6 +169,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "stott-microfluidic",
+      photo: "images/stott-microfluidic.png",
       speaker: "Shannon Stott",
       institution: "Boston University",
       title: "Ultra-sensitive microfluidic detection of SARS-CoV-2 virions in blood",
@@ -166,6 +180,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "lee-mensa",
+      photo: "images/lee-mensa.png",
       speaker: "Frances Eun-Hyung Lee",
       institution: "Emory University",
       title: "MENSA assay to identify SARS-CoV-2 persistence and viral reactivation",
@@ -176,6 +191,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "peluso-viper",
+      photo: "images/peluso-viper.png",
       speaker: "Michael Peluso",
       institution: "University of California, San Francisco",
       title: "VIPER: Validating noninvasive biomarkers of SARS-CoV-2 persistence",
@@ -186,6 +202,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "peluso-chime",
+      photo: "images/peluso-chime.png",
       speaker: "Michael Peluso",
       institution: "University of California, San Francisco",
       title: "CHIME: Applying LIINC infrastructure to pre-COVID ME/CFS",
@@ -196,6 +213,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "henrich-tissue",
+      photo: "images/henrich-tissue.jpg",
       speaker: "Timothy Henrich",
       institution: "University of California, San Francisco",
       title: "Characterizing SARS-CoV-2 tissue reservoirs in Long COVID",
@@ -206,6 +224,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "peng-endometriosis",
+      photo: "images/peng-endometriosis.png",
       speaker: "Beverly Peng",
       institution: "J. Craig Venter Institute",
       title: "Single-nucleus RNA-seq analysis of endometriosis tissue",
@@ -216,6 +235,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "roan-cytolytic",
+      photo: "images/roan-cytolytic.png",
       speaker: "Nadia Roan",
       institution: "Gladstone Institutes",
       title: "Cytolytic virus-specific CD8 T cell responses in Long COVID",
@@ -226,6 +246,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "giannarelli-plaque",
+      photo: "images/giannarelli-plaque.png",
       speaker: "Chiara Giannerelli",
       institution: "New York University",
       title: "SARS-CoV-2 persistence in vascular tissue and cardiovascular risk",
@@ -236,6 +257,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "tseng-postscd",
+      photo: "images/tseng-postscd.png",
       speaker: "Zian Tseng",
       institution: "University of California, San Francisco",
       title: "Post-mortem mapping of SARS-CoV-2 persistence in sudden cardiac death (POST-SCD)",
@@ -246,6 +268,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "vanbrocklin-pet",
+      photo: "images/vanbrocklin-pet.png",
       speaker: "Henry VanBrocklin",
       institution: "University of California, San Francisco",
       title: "Whole-body PET imaging of T cell activation in Long COVID",
@@ -256,6 +279,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "sefik-myeloid",
+      photo: "images/sefik-myeloid.png",
       speaker: "Esen Sefik",
       institution: "Yale University",
       title: "Myeloid SARS-CoV-2 reservoirs in humanized mice",
@@ -266,6 +290,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "reategui-bar",
+      photo: "images/reategui-bar.png",
       speaker: "Eduardo Reategui",
       institution: "Ohio State University",
       title: "Integrated single-particle detection of viral antigens and nucleic acids in Long COVID",
@@ -276,6 +301,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "murakami-csf",
+      photo: "images/murakami-csf.png",
       speaker: "Mario Murakami",
       institution: "Harvard Medical School",
       title: "CSF flow disruption in craniocervical instability",
@@ -286,6 +312,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "elia-invivyd",
+      photo: "images/elia-invivyd.jpg",
       speaker: "Marc Elia",
       institution: "Invivyd",
       title: "Monoclonal antibodies as a targeted therapeutic strategy for Long COVID and post-vaccination syndrome",
@@ -296,6 +323,7 @@ window.SYMPOSIUM_DATA = {
     },
     {
       id: "freire-saliva",
+      photo: "images/freire-saliva.png",
       speaker: "Marcelo Freire",
       institution: "J. Craig Venter Institute",
       title: "Salivary proteomics as a trial endpoint in Long COVID vagus-nerve stimulation",

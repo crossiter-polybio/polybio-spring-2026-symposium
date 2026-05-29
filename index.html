@@ -287,11 +287,31 @@
     .talk-title { font-size: 18px; padding-right: 32px; }
   }
 
+  .talk-meta {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-bottom: 12px;
+    padding-right: 36px;
+  }
+  @media (max-width: 720px) {
+    .talk-meta { padding-right: 32px; }
+  }
+  .talk-photo {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    flex-shrink: 0;
+    background: var(--paper-3);
+    border: 1px solid var(--line-soft);
+  }
   .talk-byline {
     font-size: 13.5px;
     color: var(--muted);
-    margin-bottom: 12px;
     font-weight: 500;
+    line-height: 1.35;
   }
   .talk-byline .speaker { color: var(--ink); font-weight: 600; }
 
@@ -617,7 +637,10 @@
           '<button class="talk-header" type="button" aria-expanded="' + isOpen + '" aria-controls="body-' + escapeHtml(t.id) + '">' +
             '<span class="talk-theme">' + escapeHtml(t.theme) + '</span>' +
             '<h2 class="talk-title">' + escapeHtml(t.title) + '</h2>' +
-            '<div class="talk-byline"><span class="speaker">' + escapeHtml(t.speaker) + '</span> · ' + escapeHtml(t.institution) + '</div>' +
+            '<div class="talk-meta">' +
+              (t.photo ? '<img class="talk-photo" src="' + escapeHtml(t.photo) + '" alt="" loading="lazy" width="46" height="46" onerror="this.style.display=&quot;none&quot;">' : '') +
+              '<div class="talk-byline"><span class="speaker">' + escapeHtml(t.speaker) + '</span> · ' + escapeHtml(t.institution) + '</div>' +
+            '</div>' +
             '<p class="talk-lay">' + escapeHtml(t.laySummary) + '</p>' +
             '<span class="toggle-icon" aria-hidden="true">' +
               '<svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>' +
