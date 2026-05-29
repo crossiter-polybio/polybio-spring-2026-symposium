@@ -381,6 +381,33 @@
     color: var(--ink);
   }
 
+  .watch-wrap {
+    margin-top: 20px;
+  }
+  .watch-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 15px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--paper-2);
+    color: var(--navy);
+    font-size: 13.5px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color .15s, border-color .15s;
+  }
+  .watch-link:hover {
+    background: var(--accent-pale);
+    border-color: var(--accent);
+  }
+  .watch-link svg {
+    width: 13px;
+    height: 13px;
+    flex-shrink: 0;
+  }
+
   .related {
     margin-top: 22px;
     padding-top: 18px;
@@ -630,7 +657,10 @@
           '</div>';
       }
       var video = t.videoUrl
-        ? '<div style="margin-top:18px"><a href="' + escapeHtml(t.videoUrl) + '" target="_blank" rel="noopener" style="font-size:13.5px;font-weight:500;color:var(--navy)">Watch talk →</a></div>'
+        ? '<div class="watch-wrap"><a class="watch-link" href="' + escapeHtml(t.videoUrl) + '" target="_blank" rel="noopener">' +
+            '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>' +
+            'Watch this talk' +
+          '</a></div>'
         : "";
       return '' +
         '<article class="talk' + (isOpen ? " is-open" : "") + '" id="' + escapeHtml(t.id) + '">' +

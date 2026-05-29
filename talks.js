@@ -27,6 +27,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "pretorius-microclots",
       photo: "images/pretorius-microclots.jpg",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=635s",
       speaker: "Resia Pretorius",
       institution: "Stellenbosch University",
       title: "Fibrinoloid microclots, endothelial dysfunction, and proteomics across Long COVID, post-vaccination syndrome, and POTS",
@@ -38,6 +39,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "buggert-gut",
       photo: "images/buggert-gut.png",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=1232s",
       speaker: "Marcus Buggert",
       institution: "Karolinska Institute",
       title: "SARS-CoV-2 gut and lymphoid pathology with longitudinal blood proteomics",
@@ -49,6 +51,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "brodin-genetics",
       photo: "images/brodin-genetics.jpg",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=1880s",
       speaker: "Petter Brodin",
       institution: "Karolinska Institute",
       title: "Whole genome sequencing and immune profiling in severe Long COVID",
@@ -60,6 +63,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "salmon-maraviroc",
       photo: "images/salmon-maraviroc.png",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=2486s",
       speaker: "Dominique Salmon",
       institution: "INSERM",
       title: "Maraviroc plus pravastatin in Long COVID patients with severe GI symptoms",
@@ -71,6 +75,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "huot-nhp",
       photo: "images/huot-nhp.jpg",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=3556s",
       speaker: "Nicolas Huot",
       institution: "Institut Pasteur",
       title: "SARS-CoV-2 persistence in the intestine in a non-human primate model",
@@ -82,6 +87,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "yonker-pediatric",
       photo: "images/yonker-pediatric.png",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=4321s",
       speaker: "Lael Yonker",
       institution: "University of Texas Southwestern",
       title: "Neutrophil-driven endothelial injury and microclot formation in pediatric Long COVID",
@@ -93,6 +99,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "miller-retina",
       photo: "images/miller-retina.png",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=4973s",
       speaker: "Sean Miller",
       institution: "Yale University",
       title: "Retinal biomarkers and organoid models of infection-triggered neurodegeneration",
@@ -104,6 +111,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "luchini-borrelia",
       photo: "images/luchini-borrelia.png",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=5612s",
       speaker: "Alessandra Luchini",
       institution: "George Mason University",
       title: "Urinary extracellular vesicle biomarkers for a Borrelia-associated Long COVID subgroup",
@@ -115,6 +123,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "lo-lymphnodes",
       photo: "images/lo-lymphnodes.png",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=7111s",
       speaker: "Michela Locci (presented by Amy Proal)",
       institution: "University of Pennsylvania",
       title: "Adaptive immune responses in Long COVID lymphoid tissue",
@@ -126,6 +135,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "moskovitz-larazotide",
       photo: "images/moskovitz-larazotide.png",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=7696s",
       speaker: "Peter Moschovis",
       institution: "Harvard Medical School",
       title: "Larazotide for gut barrier dysfunction in Long COVID",
@@ -137,6 +147,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "vanelzakker-brainstem",
       photo: "images/vanelzakker-brainstem.png",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=8265s",
       speaker: "Michael VanElzakker",
       institution: "Harvard Medical School",
       title: "Brainstem neuroinflammation and brain-derived p-tau217 in Long COVID and ME/CFS",
@@ -148,6 +159,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "putrino-mmt",
       photo: "images/putrino-mmt.png",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=8929s",
       speaker: "David Putrino",
       institution: "The Icahn School of Medicine at Mount Sinai",
       title: "Microtesla magnetic therapy for cognitive impairment in Long COVID",
@@ -159,6 +171,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "painter-cd8",
       photo: "images/painter-cd8.png",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=9510s",
       speaker: "Mark Painter",
       institution: "J. Craig Venter Institute",
       title: "Virus-specific CD8 T cells as biosensors of antigen persistence",
@@ -170,6 +183,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "stott-microfluidic",
       photo: "images/stott-microfluidic.png",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=10662s",
       speaker: "Shannon Stott",
       institution: "Boston University",
       title: "Ultra-sensitive microfluidic detection of SARS-CoV-2 virions in blood",
@@ -181,6 +195,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "lee-mensa",
       photo: "images/lee-mensa.png",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=11324s",
       speaker: "Frances Eun-Hyung Lee",
       institution: "Emory University",
       title: "MENSA assay to identify SARS-CoV-2 persistence and viral reactivation",
@@ -192,6 +207,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "peluso-viper",
       photo: "images/peluso-viper.png",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=12210s",
       speaker: "Michael Peluso",
       institution: "University of California, San Francisco",
       title: "VIPER: Validating noninvasive biomarkers of SARS-CoV-2 persistence",
@@ -203,6 +219,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "peluso-chime",
       photo: "images/peluso-chime.png",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=12947s",
       speaker: "Michael Peluso",
       institution: "University of California, San Francisco",
       title: "CHIME: Applying LIINC infrastructure to pre-COVID ME/CFS",
@@ -214,6 +231,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "henrich-tissue",
       photo: "images/henrich-tissue.jpg",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=13416s",
       speaker: "Timothy Henrich",
       institution: "University of California, San Francisco",
       title: "Characterizing SARS-CoV-2 tissue reservoirs in Long COVID",
@@ -225,6 +243,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "peng-endometriosis",
       photo: "images/peng-endometriosis.png",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=14690s",
       speaker: "Beverly Peng",
       institution: "J. Craig Venter Institute",
       title: "Single-nucleus RNA-seq analysis of endometriosis tissue",
@@ -236,6 +255,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "roan-cytolytic",
       photo: "images/roan-cytolytic.png",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=15288s",
       speaker: "Nadia Roan",
       institution: "Gladstone Institutes",
       title: "Cytolytic virus-specific CD8 T cell responses in Long COVID",
@@ -247,6 +267,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "giannarelli-plaque",
       photo: "images/giannarelli-plaque.png",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=16005s",
       speaker: "Chiara Giannerelli",
       institution: "New York University",
       title: "SARS-CoV-2 persistence in vascular tissue and cardiovascular risk",
@@ -258,6 +279,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "tseng-postscd",
       photo: "images/tseng-postscd.png",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=16922s",
       speaker: "Zian Tseng",
       institution: "University of California, San Francisco",
       title: "Post-mortem mapping of SARS-CoV-2 persistence in sudden cardiac death (POST-SCD)",
@@ -269,6 +291,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "vanbrocklin-pet",
       photo: "images/vanbrocklin-pet.png",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=17513s",
       speaker: "Henry VanBrocklin",
       institution: "University of California, San Francisco",
       title: "Whole-body PET imaging of T cell activation in Long COVID",
@@ -280,6 +303,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "sefik-myeloid",
       photo: "images/sefik-myeloid.png",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=18376s",
       speaker: "Esen Sefik",
       institution: "Yale University",
       title: "Myeloid SARS-CoV-2 reservoirs in humanized mice",
@@ -291,17 +315,19 @@ window.SYMPOSIUM_DATA = {
     {
       id: "reategui-bar",
       photo: "images/reategui-bar.png",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=18923s",
       speaker: "Eduardo Reategui",
       institution: "Ohio State University",
       title: "Integrated single-particle detection of viral antigens and nucleic acids in Long COVID",
       theme: "Diagnostics",
       laySummary: "A new biochip detects individual virus particles by reading both their surface proteins and their internal RNA at once, and is being applied to Long COVID samples to search for lingering viral material carried in extracellular vesicles.",
-      technicalSummary: "Reategui's engineering lab develops micro- and nanotechnologies to characterize circulating biomarkers and individual viral particles, exploiting the physical similarities between viruses and extracellular vesicles (EVs) — comparable size, surface markers, and RNA cargo. The lab's BAR assay (biochip for antigen and RNA) immobilizes intact, unlysed virus particles or EVs on a chip surface and combines an antigen readout (surface-antibody capture of, e.g., spike protein) with designed probes that enter the particle to detect messenger-RNA regions, producing a fluorescence signal that can co-localize surface protein with internal RNA to confirm an intact virion — and can equally interrogate viral RNA carried inside a patient's host EVs. Developed to FDA requirements under a pandemic-era EUA submission, the assay was benchmarked against PCR and ELISA with higher sensitivity for both protein and RNA, validated across fresh and frozen samples, multiple viral mutations, and cross-reactivity panels (other viruses, bacteria, fungi), and runs fully automated at roughly 250 samples per batch; combining antigen and RNA readouts in the acute cohort approached ~100% sensitivity, with strong agreement with PCR in asymptomatic cases. In a Long COVID pilot of seven patients sampled at multiple time points after the acute phase (with Jason Goldman of Swedish Medical Center, Seattle), no free virus was detected in circulation, but viral-RNA signatures were identified within patients' extracellular vesicles — illustrated by one Long COVID patient across three time points versus a healthy donor — and the co-localization capability is being directed toward identifying the tissue of origin in collaboration with PolyBio. The team is now processing roughly 150 PolyBio plasma samples (some paired) to quantify viral persistence and compare viral signatures across biofluids; the single-particle antigen-plus-RNA approach complements Shannon Stott's microfluidic virion detection and the tissue-based persistence findings of Timothy Henrich, Marcus Buggert, and Esen Sefik.",
+      technicalSummary: "Reategui's engineering lab develops micro- and nanotechnologies to characterize circulating biomarkers and individual viral particles, exploiting the physical similarities between viruses and extracellular vesicles (EVs) — comparable size, surface markers, and RNA cargo. The lab's BARA assay (biochip for antigen and RNA) immobilizes intact, unlysed virus particles or EVs on a chip surface and combines an antigen readout (surface-antibody capture of, e.g., spike protein) with designed probes that enter the particle to detect messenger-RNA regions, producing a fluorescence signal that can co-localize surface protein with internal RNA to confirm an intact virion — and can equally interrogate viral RNA carried inside a patient's host EVs. Developed to FDA requirements under a pandemic-era EUA submission, the assay was benchmarked against PCR and ELISA with higher sensitivity for both protein and RNA, validated across fresh and frozen samples, multiple viral mutations, and cross-reactivity panels (other viruses, bacteria, fungi), and runs fully automated at roughly 250 samples per batch; combining antigen and RNA readouts in the acute cohort approached ~100% sensitivity, with strong agreement with PCR in asymptomatic cases. In a Long COVID pilot of seven patients sampled at multiple time points after the acute phase (with Jason Goldman of Swedish Medical Center, Seattle), no free virus was detected in circulation, but viral-RNA signatures were identified within patients' extracellular vesicles — illustrated by one Long COVID patient across three time points versus a healthy donor — and the co-localization capability is being directed toward identifying the tissue of origin in collaboration with PolyBio. The team is now processing roughly 150 PolyBio plasma samples (some paired) to quantify viral persistence and compare viral signatures across biofluids; the single-particle antigen-plus-RNA approach complements Shannon Stott's microfluidic virion detection and the tissue-based persistence findings of Timothy Henrich, Marcus Buggert, and Esen Sefik.",
       relatedTalks: ["stott-microfluidic", "henrich-tissue", "buggert-gut", "sefik-myeloid"]
     },
     {
       id: "murakami-csf",
       photo: "images/murakami-csf.png",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=19496s",
       speaker: "Mario Murakami",
       institution: "Harvard Medical School",
       title: "CSF flow disruption in craniocervical instability",
@@ -313,6 +339,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "elia-invivyd",
       photo: "images/elia-invivyd.jpg",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=20040s",
       speaker: "Marc Elia",
       institution: "Invivyd",
       title: "Monoclonal antibodies as a targeted therapeutic strategy for Long COVID and post-vaccination syndrome",
@@ -324,6 +351,7 @@ window.SYMPOSIUM_DATA = {
     {
       id: "freire-saliva",
       photo: "images/freire-saliva.png",
+      videoUrl: "https://www.youtube.com/watch?v=tD5gWVEjudQ&t=20798s",
       speaker: "Marcelo Freire",
       institution: "J. Craig Venter Institute",
       title: "Salivary proteomics as a trial endpoint in Long COVID vagus-nerve stimulation",
